@@ -26,6 +26,7 @@ public class DBInitializer implements CommandLineRunner {
         Designation designation1 = new Designation(2L,"Software Consultant",2,40000);
         Designation designation2 = new Designation(3L,"Software Developer",5,80000);
 
+
         this.designationRepository.save(designation);
         this.designationRepository.save(designation1);
         this.designationRepository.save(designation2);
